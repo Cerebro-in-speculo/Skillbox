@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/skillboxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_launcher_foreground"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="10"
+        android:text="@string/testText"
+        android:textAppearance="@style/MyCoustomTet"
+        android:textSize="20sp"
+        tools:text="@tools:sample/lorem/random" />
+
+    <TextView
+        android:id="@+id/anotherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/anotherText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:visibility="invisible"
+        android:text="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/plusOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/selector_button"
+        android:padding="16dp"
+        android:src="@drawable/plus"
+        android:visibility="visible"/>
+
+</FrameLayout>

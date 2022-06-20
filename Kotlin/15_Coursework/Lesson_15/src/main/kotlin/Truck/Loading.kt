@@ -1,0 +1,5 @@
+package Truck
+
+interface Loading {
+
+}
